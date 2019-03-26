@@ -3,11 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CSS-Display</title>
+	<style>
+		nav{
+			text-align: center;
+		}
+		ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: green;
+            height: 50px;
+            line-height: 50spx;
+       		 }
+		
+		 ul li {
+            display: inline;
+            padding: 5px;
+        		}
+        ul li a {
+            color: white;
+        	}
+        	ul li:hover{
+        		background-color: red;
+        	}
+	</style>
 </head>
 <body>
-	<h1>hello word</h1><h2>hi hello word</h2>
-	<div>this is tag block</div>
-	<a href="">this is tag inline</a>
-	<span>this is taginline</span>
+<nav>
+	<ul>
+		<li><a href="">home</a></li>
+		<li><a href="">product</a></li>
+		<li><a href="">blog</a></li>
+		<li><a href="">about</a></li>
+	</ul>
+</nav>
 </body>
 </html>
