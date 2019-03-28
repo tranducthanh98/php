@@ -13,7 +13,7 @@
             list-style: none;
             background: green;
             height: 50px;
-            line-height: 50spx;
+            line-height: 50px;
        		 }
 		
 		 ul li {
@@ -26,16 +26,27 @@
         	ul li:hover{
         		background-color: red;
         	}
+        	.sub-menu{
+        		display: none;
+        	}
 	</style>
 </head>
 <body>
+<div>
 <nav>
 	<ul>
-		<li><a href="">home</a></li>
-		<li><a href="">product</a></li>
-		<li><a href="">blog</a></li>
-		<li><a href="">about</a></li>
+		<li><a href="">Thời sự</a>
+			<ul class="sub-menu">
+				<li><a href="#">abc</a></li>
+				<li><a href="#">abc</a></li>
+				<li><a href="#">abc</a></li>
+			</ul></li>
+		<li><a href="">Pháp luật</a></li>
+		<li><a href="">Kinh doanh</a></li>
+		<li><a href="">Sức khỏe</a></li>
 	</ul>
+
 </nav>
+</div>
 </body>
 </html>
